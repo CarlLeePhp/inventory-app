@@ -6,4 +6,5 @@ export interface Product {
     warnLevel: number;
     isActive: boolean;
     stock: number;
+    modify: number;
 }

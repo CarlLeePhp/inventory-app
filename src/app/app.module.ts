@@ -2,9 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatCardModule} from '@angular/material/card';
-import {MatTableModule} from '@angular/material/table';
+import { AngularMaterialModule } from './angular-material.module';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -23,9 +21,7 @@ import { ProductItemComponent } from './product-item/product-item.component';
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    MatToolbarModule,
-    MatCardModule,
-    MatTableModule
+    AngularMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
